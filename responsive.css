@@ -126,6 +126,12 @@
 	.top-item-right{
 		padding:0 25px;
 	}
+	.navbar{
+		margin:0;
+	}
+	.right-nav{
+		text-align:right;
+	
 }
 @media(max-width:1000px){
    /* NAVBAR */
