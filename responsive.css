@@ -123,6 +123,9 @@
 	.footer_menu .col_2{
 		margin-top:8px;
 	}
+	.top-item-right{
+		padding:0 25px;
+	}
 }
 @media(max-width:1000px){
    /* NAVBAR */
