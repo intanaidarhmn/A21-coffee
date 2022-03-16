@@ -58,6 +58,53 @@
     .top-item-left img{
         left: 30px;
     }
+    .form-contact {
+        /* height: 700px; */
+        text-align: center;
+        padding-bottom: 50px;
+        /* position: absolute; */
+      }
+    
+    
+      .heading {
+        padding-bottom: 10px;
+    
+        margin: 0 16px;
+      }
+    
+      /* .col {
+        width: 100%;
+      } */
+    
+      .form-wrapper {
+        padding: 0px;
+        padding-top: 10px;
+        width: 100%;
+        flex-direction: column;
+      }
+    
+      .form-right, .form-left {
+        text-align: justify;
+        border-left: none;
+        width: 100%;
+      }
+    
+      .form-right{
+          padding-top: 0;
+      }
+    
+      input.attachment {
+        text-align: justify;
+      }
+    
+      .contact-submit {
+        text-align: center;
+        margin-top: 16px;
+      }
+    
+      p.notes {
+        margin-top: 0px;
+      }
 }
 @media(max-width:1000px){
    /* NAVBAR */
@@ -84,5 +131,45 @@
     .outlets h3, .employees h3{
         margin-top: 34px;
     }
+    .form-wrapper {
+        padding: 0px;
+      }
+    
+      /* .form-contact {
+        height: 750px;
+      } */
+    
+      /* .col {
+        float: none;
+      } */
+    
+      .form-left {
+        border-right: none;
+      }
+    
+      .form-right {
+        text-align: left;
+      }
+    
+      .form-right p {
+        padding-left: 0;
+      }
+    
+      /* .form-item {
+            width: 50%;
+        } */
+    
+      .heading {
+        margin: 0 18px;
+      }
+    
+      /* .heading h3, p {
+            text-align: center;
+        } */
+    
+      .contact-submit {
+        text-align: center;
+        margin-top: 16px;
+      }
     
 }
