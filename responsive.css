@@ -114,11 +114,13 @@
       }
       /* END OF CONTACT US */
 
-	.footer-menu{
-		justify-content:left;
+	.footer_menu{
+		justify-content:unset;
 		flex-direction:column;
+		align-items:center;
+		text-align:center;
 	}
-	.footer .col_2{
+	.footer_menu .col_2{
 		margin-top:8px;
 	}
 }
