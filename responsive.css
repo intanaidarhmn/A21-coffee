@@ -10,6 +10,10 @@
     .navbar{
         padding: 0;
     }
+	.navbar a{
+      	 margin:0 5px;
+	 font-size:smaller;
+   	}
     .middle-nav a{
         margin: 0 5px;
 	font-size:13px;
