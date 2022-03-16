@@ -139,9 +139,13 @@
 }
 @media(max-width:1000px){
    /* NAVBAR */
-   .navbar a{
-       margin:0 20px;
-   }
+   	.navbar{
+        padding: 0 15px;
+    	}
+	
+	.navbar a{
+      	 margin:0 20px;
+   	}
    /* END OF NAVBAR */
    
    
