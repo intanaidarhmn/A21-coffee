@@ -113,6 +113,14 @@
         margin-top: 0px;
       }
       /* END OF CONTACT US */
+
+	.footer-menu{
+		justify-content:left;
+		flex-direction:column;
+	}
+	.footer .col_2{
+		margin-top:8px;
+	}
 }
 @media(max-width:1000px){
    /* NAVBAR */
