@@ -134,7 +134,7 @@ div {
   /*margin: 0 auto;*/
   border-radius: 5px;
   background: #a2795d;
-/*   border: 2px solid #a1795a; */
+  border: 2px solid #a1795a;
   color: white;
 }
 
@@ -158,8 +158,8 @@ div {
   gap: 10px;
   /*background-color: #2196F3;*/
   padding: 10px;
-  border: 2px solid #a1795a;
-  border-radius: 5px;
+/*   border: 2px solid #a1795a; */
+/*   border-radius: 5px; */
 }
 
 .grid-container-statistik > div {
