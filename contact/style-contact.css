@@ -1,0 +1,142 @@
+/* 
+Width of desktop: 1080px
+Height of header: 60px 
+Width of container: 936px, so length of padding: (1080-936)/2 = 72px
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+
+body p, h3 {
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 90%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Contact Us */
+.form-contact {
+    /* height: 500px; */
+    margin: 65px auto 0;
+    padding-bottom: 50px;
+    /* background-color: rgb(202, 111, 0); */
+    background-image: url(../asset/bg-form.jpg);
+    background-size:100%;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.heading h3 {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    opacity: 0.9;
+    padding-top: 16px;
+    font-size: 30px;
+}
+
+.heading p {
+    margin: 2px;
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+.form-wrapper {
+    display: flex;
+    /* padding: 0 100px;  */
+    color: white;
+    /* background-color: bisque; */
+    
+}
+
+.form-left {
+    border-right: 1px solid #bac0c4;
+    padding: 50px;
+    width: 50%;
+}
+
+.form-right {
+    padding: 50px;
+    width: 50%;
+}
+
+/* .col {
+    width: 50%;
+    float: left;
+} */
+
+
+/* .form-right p {
+    text-align:;
+} */
+
+.form-item{
+    width: 100%;
+}
+.form-item p {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.form-item input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+
+
+textarea {
+    width: 100%;
+    height: 124px;
+    border: 1px solid #dee7ec;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+input.attachment {
+    border: none;
+    background-color: none;
+    padding: 0;
+    color: white;
+}
+
+.form-item .contact-submit {
+    width: 88px;
+    height: 44px;
+    padding: 2px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    background-color: #1aae9f;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-submit:hover {
+    opacity: 0.7;
+}

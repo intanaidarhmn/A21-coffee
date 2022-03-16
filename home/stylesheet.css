@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.navbar {
+  background: white;
+  border-bottom: 2px solid #d3a425;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* justify-content: center; */
+  padding: 0 50px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.navbar .logo img {
+  width: 130px;
+}
+
+.navbar a {
+  margin: 0 30px;
+  color: #222222;
+  font-weight: bold;
+}
+/* END OF HEADER */
+
+/* TOP */
+.top {
+  margin-top: 80px;
+}
+.top-content {
+  background-color: bisque;
+  /* background-size: cover;
+  background-position: center; */
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.top-item-left {
+  width: 50%;
+}
+.top-item-right {
+  width: 50%;
+  padding-left: 50px;
+  border-left: 2px solid white;
+}
+
+.top-item-left img {
+  width: 70%;
+  display: inline-block;
+  position: relative;
+  left: 30px;
+}
+
+.container-about {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container-product-about {
+  width: 100%;
+  /* max-width: 1100px; */
+  margin: 0 auto;
+}
+
+.img-about {
+  width: 50%;
+  float: right;
+  padding: 15px;
+}
+
+.text-about {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  padding-right: 50px;
+  /*text-align: justify;
+	text-justify: inter-word;*/
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.my-5 {
+  margin: 5px 0px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.row {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  /*margin: 0 auto;*/
+  border-radius: 5px;
+  background: #a2795d;
+  border: 2px solid #a1795a;
+  color: white;
+}
+
+.img-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.img-shadow:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+  transform: scale(1.01);
+}
+
+.text-bold-30 {
+  font-size: 50px;
+}
+
+.grid-container-statistik {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+  border: 2px solid #a1795a;
+  border-radius: 5px;
+}
+
+.grid-container-statistik > div {
+  padding: 20px 0;
+  text-align: center;
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  /*font-size: 30px;*/
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  border-right: 3px solid #a1795a;
+}
+.item2 {
+  grid-column: 3 / span 2;
+}
+.item3 {
+  grid-column: 5 / span 2;
+  border-left: 3px solid #a1795a;
+}
+
+.label-statistik {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-statistik {
+  margin: auto;
+  width: 125px;
+  transition: 0.3s;
+  /*background: red;*/
+}
+
+.text-statistik:hover {
+  transform: scale(1.1);
+}
+/* END OF TOP */
+
+/* GLANCE OF JOURNEY */
+.glance-field {
+  margin-top: 70px;
+}
+.container {
+  width: 90%;
+  padding: 0 72px;
+  margin: 0 auto;
+  /* background-color:; */
+}
+
+.header-glance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.glance-wrapper {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 150px;
+  grid-template-areas:
+    "team-photo team-photo flex-micro flex-micro"
+    "team-photo team-photo flex-micro flex-micro"
+    "outlets outlets employees employees"
+    "outlets outlets employees employees";
+}
+
+/* Layouting Grid */
+.item-glance,
+.micro-glance {
+  padding: 17px;
+}
+.team-photo {
+  grid-area: team-photo;
+}
+
+.flex-micro {
+  grid-area: flex-micro;
+}
+.outlets {
+  grid-area: outlets;
+}
+.employees {
+  grid-area: employees;
+}
+
+.flex-micro {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+.flex-micro-list {
+  flex: auto;
+  width: 50%;
+}
+
+/* Styling Element */
+.team-photo img {
+  width: 100%;
+  height: 100%;
+}
+.barista-img img {
+  width: 100%;
+  height: 100%;
+  max-height: 150px;
+}
+.coffee-img img {
+  width: 100%;
+  height: 100%;
+  max-height: 170px;
+}
+.sold-number {
+  text-align: center;
+}
+.item-glance {
+  text-align: center;
+}
+.outlets img,
+.employees img {
+  width: 100%;
+  height: 78%;
+  margin-bottom: 8px;
+}
+.outlets h3,
+.employees h3 {
+  margin-bottom: -10px;
+}
+/* END OF GLANCE OF JOURNEY */
+
+/* FOOTER */
+.col_1 img {
+  width: 130px;
+}
+.footer {
+  background: #d69d008a;
+  padding: 50px;
+  margin-top: 100px;
+  display: inline-block;
+  width: 100%;
+}
+
+.footer .footer_menu {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto 25px;
+  justify-content: space-between;
+}
+.coba {
+  background-color: #222222;
+  width: 100%;
+  height: 50px;
+}
+
+.footer .footer_menu .title {
+  margin-bottom: 10px;
+  color: #adadad;
+}
+
+.footer .footer_menu ul li a {
+  display: block;
+  margin-bottom: 6px;
+  color: rgb(0, 0, 0);
+}
+
+.footer .footer_menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .social_media {
+  text-align: center;
+}
+
+.footer .social_media ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer .social_media ul li a {
+  display: block;
+  margin: 0 5px;
+  color: #fff;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: #222222;
+  line-height: 50px;
+  border-radius: 3px;
+}
+
+.sosmed span {
+  display: block;
+  margin: 0 10px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: #222222;
+  line-height: 50px;
+  border-radius: 3px;
+  justify-content: center;
+  text-align: center;
+}
+
+.sosmed {
+  color: #adadad;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.sosmed span:hover {
+  color: #fff;
+}
+
+.sosmed span.youtube:hover {
+  background: #f00;
+}
+
+.sosmed span.instagram:hover {
+  background: #c32aa3;
+}
+
+.sosmed span.whatsapp:hover {
+  background: #25d366;
+}
+
+.sosmed {
+  color: #adadad;
+}
