@@ -214,3 +214,38 @@
 		border-bottom: 3px solid #a1795a;
 	}
 }
+
+@media (max-width: 810px) {
+    .row{
+    	margin-top: 15px;
+    	flex-direction: column-reverse;
+    	/*display: flex;*/
+    	/*flex-wrap: wrap;*/
+    	margin: 0 auto;
+    	border: none;
+    }
+
+    .title-about{
+    	text-align: center;
+    }
+
+    .text-index{
+    	text-align: justify;
+    }
+
+    .img-about {
+    	margin: auto;
+    	width: 80%;
+    	padding: 15px;
+    	float: none;
+    }
+
+    .text-about {
+    	width: 100%;
+    	/*margin: auto;*/
+    	padding-right: 15px;
+    	float: none;
+    	text-align: justify;
+    	/*text-justify: inter-word;*/
+    }
+}
