@@ -9,6 +9,7 @@
     /* NAVBAR */
     .navbar{
         padding: 0;
+	margin:0;
     }
 	.navbar a{
       	 margin:0 5px;
@@ -134,9 +135,7 @@
 	.top-item-right{
 		padding:0 25px;
 	}
-	.navbar{
-		margin:0;
-	}
+
 	.right-nav{
 		text-align:right;
 	
