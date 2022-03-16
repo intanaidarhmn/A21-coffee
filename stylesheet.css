@@ -399,7 +399,7 @@ div {
   margin: 65px auto 0;
   padding-bottom: 50px;
   /* background-color: rgb(202, 111, 0); */
-  background-image: url(../asset/bg-form.jpg);
+  background-image: url(asset/bg-form.jpg);
   background-size:100%;
 }
 
