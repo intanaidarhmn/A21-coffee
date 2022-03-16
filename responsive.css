@@ -8,11 +8,15 @@
 @media(max-width:670px){
     /* NAVBAR */
     .navbar{
-        padding: 0 20px;
+        padding: 0;
     }
-    .navbar a{
+    .middle-nav a{
         margin: 0 5px;
+	font-size:13px;
     }
+	.navbar .logo img{
+		width:115px;
+	}
     
     /* END OF NAVBAR */
     
